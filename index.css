@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+#line {
+    border-bottom: black 1px solid;
+    opacity: 5%;;
+}
+
+nav {
+    height: 70px;
+    box-shadow: 0px 0px 40px black;
+}
+
+#div1{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#div2 {
+    padding: 20px;
+}
+
+header #div2 {
+    margin-left: 70%;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+
+}
+
+#p1 {
+    padding: 290px 44% 150px;
+    font-size: 20px;
+    color: white;
+}
+
+#st2 {
+    background-color: black;
+}
+
+#sec1 {
+    background-image: url(./assets/images/architect.jpg);
+    height: 520px;
+    width: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+#sec2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 35px;
+}
+
+#p2 {
+    /* border-bottom: solid black 0.2px; */
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#div3 p, #div4 p {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#div3 #img1 {
+    background-image: url(./assets/images/house5.jpg);
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+#div3 #img2 {
+    background-image: url(./assets/images/house2.jpg);
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+#div3 #img3 {
+    background-image: url(./assets/images/house3.jpg);
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+#div3 #img4 {
+    background-image: url(./assets/images/house4.jpg);
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    padding: 5px;
+}
+
+#div3 span, #div4 span {
+    background-color: black;
+    color: rgb(194, 189, 189);
+}
+
+#div4 #img1 {
+    background-image: url(./assets/images/house2.jpg);
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+#div4 #img2 {
+    background-image: url(./assets/images/house5.jpg);
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+#div4 #img3 {
+    background-image: url(./assets/images/house4.jpg);
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+#div4 #img4 {
+    background-image: url(./assets/images/house3.jpg);
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+#sec3 {
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#p3 {
+    /* border-bottom: solid black 0.2px; */
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+#p4 {
+    text-align: justify;
+    margin-top: 15px;
+}
+
+#div5 #img1 {
+    /* background-image: url(./assets/images/team2.jpg); */
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+#div5 #img2 {
+    /* background-image: url(./assets/images/team1.jpg); */
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+#div5 #img3 {
+    /* background-image: url(./assets/images/team3.jpg); */
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+#div5 #img4 {
+    /* background-image: url(./assets/images/team4.jpg); */
+    height: 150px;
+    width: 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+#div6 p, #div7 p, #div8 p, #div9 p {
+    display: inline-block;
+}
+
+#div6 #pj1, #div7 #pj1, #div8 #pl1, #div9 #pb1 {
+    width: 24%;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+#div6 #pj2, #div7 #pj2, #div8 #pl2, #div9 #pb2 {
+    width: 24%;
+    margin-top: 20px;
+}
+
+#div6 p {
+    font-size: 18px;
+}
+
+#div7 p {
+    color: rgb(158, 155, 155);
+    font-size: 15px;
+}
+
+#div9 button {
+    width: 100%;
+    padding: 6px;
+}
+
+#p5 {
+    /* border-bottom: solid 1px black; */
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+#p6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sec4 {
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#sec5 {
+    margin-bottom: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#div10 input {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    padding: 6px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
